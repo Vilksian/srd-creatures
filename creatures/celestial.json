@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Couatl",
+    "size": "Medium",
+    "type": "celestial",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 19,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 97,
+      "extra": "(13d8 + 39)"
+    },
+    "speed": {
+      "base": 30,
+      "fly": {
+        "speed": 90,
+        "hover": false
+      }
+    },
+    "stats": {
+      "str": 16,
+      "dex": 20,
+      "con": 17,
+      "int": 18,
+      "wis": 20,
+      "cha": 18
+    },
+    "saving_throws": {
+      "con": 5,
+      "wis": 7,
+      "cha": 6
+    },
+    "senses": {
+      "truesight": 120,
+      "passive_perception": 15
+    },
+    "damage_resistances": [
+      "Radiant"
+    ],
+    "damage_immunities": [
+      "Psychic; Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks"
+    ],
+    "languages": [
+      "All",
+      "Telepathy 120 ft."
+    ],
+    "challenge": {
+      "rating": 4,
+      "xp": 1
+    },
+    "traits": [
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: \nAt will: detect evil and good, detect magic, detect thoughts \n3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield \n1/day each: dream, greater restoration, scrying"
+      },
+      {
+        "name": "Magic Weapons.",
+        "desc": "The couatl's weapon attacks are magical."
+      },
+      {
+        "name": "Shielded Mind.",
+        "desc": "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one creature. Hit: 8 (1d6 + 5) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 24 hours. Until this poison ends, the target is unconscious. Another creature can use an action to shake the target awake.",
+        "attack_bonus": 8,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 8,
+            "dice": "1d6 + 5",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 10 ft., one Medium or smaller creature. Hit: 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the couatl can't constrict another target.",
+        "attack_bonus": 6,
+        "reach": 10,
+        "targets": "one Medium or smaller creature.",
+        "damage": [
+          {
+            "average": 10,
+            "dice": "2d6 + 3",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Change Shape.",
+        "desc": "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice). In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/257/1000/1000/636252768143323827.jpeg"
+  },
+  {
+    "name": "Deva",
+    "size": "Medium",
+    "type": "celestial",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 17,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 136,
+      "extra": "(16d8 + 64)"
+    },
+    "speed": {
+      "base": 30,
+      "fly": {
+        "speed": 90,
+        "hover": false
+      }
+    },
+    "stats": {
+      "str": 18,
+      "dex": 18,
+      "con": 18,
+      "int": 17,
+      "wis": 20,
+      "cha": 20
+    },
+    "saving_throws": {
+      "wis": 9,
+      "cha": 9
+    },
+    "skills": {
+      "insight": 9,
+      "perception": 9
+    },
+    "senses": {
+      "darkvision": 120,
+      "passive_perception": 19
+    },
+    "damage_resistances": [
+      "Radiant; Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks"
+    ],
+    "condition_immunities": [
+      "Charmed",
+      "Exhaustion",
+      "Frightened"
+    ],
+    "languages": [
+      "All",
+      "Telepathy 120 ft."
+    ],
+    "challenge": {
+      "rating": 10,
+      "xp": 5
+    },
+    "traits": [
+      {
+        "name": "Angelic Weapons.",
+        "desc": "The deva's weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack)."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The deva's spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components: \nAt will: detect evil and good \n1/day each: commune, raise dead"
+      },
+      {
+        "name": "Magic Resistance.",
+        "desc": "The deva has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The deva makes two melee attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.",
+        "attack_bonus": 8,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 7,
+            "dice": "1d6 + 4",
+            "type": "bludgeoning"
+          },
+          {
+            "average": 18,
+            "dice": "4d8",
+            "type": "radiant"
+          }
+        ]
+      },
+      {
+        "name": "Healing Touch (3/Day).",
+        "desc": "The deva touches another creature. The target magically regains 20 (4d8 + 2) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+      },
+      {
+        "name": "Change Shape.",
+        "desc": "The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva's choice). In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/267/1000/1000/636252768980059444.jpeg"
+  },
+  {
+    "name": "Pegasus",
+    "size": "Large",
+    "type": "celestial",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 59,
+      "extra": "(7d10 + 21)"
+    },
+    "speed": {
+      "base": 60,
+      "fly": {
+        "speed": 90,
+        "hover": false
+      }
+    },
+    "stats": {
+      "str": 18,
+      "dex": 15,
+      "con": 16,
+      "int": 10,
+      "wis": 15,
+      "cha": 13
+    },
+    "saving_throws": {
+      "dex": 4,
+      "wis": 4,
+      "cha": 3
+    },
+    "skills": {
+      "perception": 6
+    },
+    "senses": {
+      "passive_perception": 16
+    },
+    "languages": [
+      "Celestial",
+      "Common",
+      "Elvish  and Sylvan but can't speak"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+        "attack_bonus": 6,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 11,
+            "dice": "2d6 + 4",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/303/1000/1000/636379808797059368.png"
+  },
+  {
+    "name": "Planetar",
+    "size": "Large",
+    "type": "celestial",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 19,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 200,
+      "extra": "(16d10 + 112)"
+    },
+    "speed": {
+      "base": 40,
+      "fly": {
+        "speed": 120,
+        "hover": false
+      }
+    },
+    "stats": {
+      "str": 24,
+      "dex": 20,
+      "con": 24,
+      "int": 19,
+      "wis": 22,
+      "cha": 25
+    },
+    "saving_throws": {
+      "con": 12,
+      "wis": 11,
+      "cha": 12
+    },
+    "skills": {
+      "perception": 11
+    },
+    "senses": {
+      "truesight": 120,
+      "passive_perception": 21
+    },
+    "damage_resistances": [
+      "Radiant; Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks"
+    ],
+    "condition_immunities": [
+      "Charmed",
+      "Exhaustion",
+      "Frightened"
+    ],
+    "languages": [
+      "All",
+      "Telepathy 120 ft."
+    ],
+    "challenge": {
+      "rating": 16,
+      "xp": 15
+    },
+    "traits": [
+      {
+        "name": "Angelic Weapons.",
+        "desc": "The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack)."
+      },
+      {
+        "name": "Divine Awareness.",
+        "desc": "The planetar knows if it hears a lie."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The planetar's spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components: \nAt will: detect evil and good, invisibility (self only) \n3/day each: blade barrier, dispel evil and good, flame strike, raise dead \n1/day each: commune, control weather, insect plague"
+      },
+      {
+        "name": "Magic Resistance.",
+        "desc": "The planetar has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The planetar makes two melee attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6 + 7) slashing damage plus 22 (5d8) radiant damage.",
+        "attack_bonus": 12,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 21,
+            "dice": "4d6 + 7",
+            "type": "slashing"
+          },
+          {
+            "average": 22,
+            "dice": "5d8",
+            "type": "radiant"
+          }
+        ]
+      },
+      {
+        "name": "Healing Touch",
+        "desc": "(4/Day). The planetar touches another creature. The target magically regains 30 (6d8 + 3) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/303/315/315/636252771762002496.jpeg"
+  },
+  {
+    "name": "Solar",
+    "size": "Large",
+    "type": "celestial",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 21,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 243,
+      "extra": "(18d10 + 144)"
+    },
+    "speed": {
+      "base": 50,
+      "fly": {
+        "speed": 150,
+        "hover": false
+      }
+    },
+    "stats": {
+      "str": 26,
+      "dex": 22,
+      "con": 26,
+      "int": 25,
+      "wis": 25,
+      "cha": 30
+    },
+    "saving_throws": {
+      "int": 14,
+      "wis": 14,
+      "cha": 17
+    },
+    "skills": {
+      "perception": 14
+    },
+    "senses": {
+      "truesight": 120,
+      "passive_perception": 24
+    },
+    "damage_resistances": [
+      "Radiant; Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks"
+    ],
+    "damage_immunities": [
+      "Necrotic",
+      "Poison"
+    ],
+    "condition_immunities": [
+      "Charmed",
+      "Exhaustion",
+      "Frightened",
+      "Poisoned"
+    ],
+    "languages": [
+      "All",
+      "Telepathy 120 ft."
+    ],
+    "challenge": {
+      "rating": 21,
+      "xp": 33
+    },
+    "traits": [
+      {
+        "name": "Angelic Weapons.",
+        "desc": "The solar's weapon attacks are magical. When the solar hits with any weapon, the weapon deals an extra 6d8 radiant damage (included in the attack)."
+      },
+      {
+        "name": "Divine Awareness.",
+        "desc": "The solar knows if it hears a lie."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The solar's spellcasting ability is Charisma (spell save DC 25). It can innately cast the following spells, requiring no material components: \nAt will: detect evil and good, invisibility (self only) \n3/day each: blade barrier, dispel evil and good, resurrection \n1/day each: commune, control weather"
+      },
+      {
+        "name": "Magic Resistance.",
+        "desc": "The solar has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The solar makes two greatsword attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 22 (4d6 + 8) slashing damage plus 27 (6d8) radiant damage.",
+        "attack_bonus": 15,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 22,
+            "dice": "4d6 + 8",
+            "type": "slashing"
+          },
+          {
+            "average": 27,
+            "dice": "6d8",
+            "type": "radiant"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.",
+        "attack_bonus": 13,
+        "reach": 150,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 15,
+            "dice": "2d8 + 6",
+            "type": "piercing"
+          },
+          {
+            "average": 27,
+            "dice": "6d8",
+            "type": "radiant"
+          }
+        ]
+      },
+      {
+        "name": "Flying Sword.",
+        "desc": "The solar releases its greatsword to hover magically in an unoccupied space within 5 feet of it. If the solar can see the sword, the solar can mentally command it as a bonus action to fly up to 50 feet and either make one attack against a target or return to the solar's hands. If the hovering sword is targeted by any effect, the solar is considered to be holding it. The hovering sword falls if the solar dies."
+      },
+      {
+        "name": "Healing Touch (4/Day).",
+        "desc": "The solar touches another creature. The target magically regains 40 (8d8 + 4) hit points and is freed from any curse, disease, poison, blindness, or deafness."
+      }
+    ],
+    "legendary_actions": {
+      "desc": "The solar can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The solar regains spent legendary actions at the start of its turn. ",
+      "actions": [
+        {
+          "name": "Teleport.",
+          "desc": "The solar magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see."
+        },
+        {
+          "name": "Searing Burst (Costs 2 Actions).",
+          "desc": "The solar emits magical, divine energy. Each creature of its choice in a 10-foot radius must make a DC 23 Dexterity saving throw, taking 14 (4d6) fire damage plus 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one."
+        },
+        {
+          "name": "Blinding Gaze (Costs 3 Actions).",
+          "desc": "The solar targets one creature it can see within 30 feet of it. If the target can see it, the target must succeed on a DC 15 Constitution saving throw or be blinded until magic such as the lesser restoration spell removes the blindness."
+        }
+      ]
+    },
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/121/315/315/636252748079664097.jpeg"
+  },
+  {
+    "name": "Unicorn",
+    "size": "Large",
+    "type": "celestial",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 67,
+      "extra": "(9d10 + 18)"
+    },
+    "speed": {
+      "base": 50
+    },
+    "stats": {
+      "str": 18,
+      "dex": 14,
+      "con": 15,
+      "int": 11,
+      "wis": 17,
+      "cha": 16
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 13
+    },
+    "damage_immunities": [
+      "Poison"
+    ],
+    "condition_immunities": [
+      "Charmed",
+      "Paralyzed",
+      "Poisoned"
+    ],
+    "languages": [
+      "Celestial",
+      "Elvish",
+      "Sylvan",
+      "Telepathy 60 ft."
+    ],
+    "challenge": {
+      "rating": 5,
+      "xp": 1
+    },
+    "traits": [
+      {
+        "name": "Charge.",
+        "desc": "If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (2d8) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The unicorn's innate spellcasting ability is Charisma (spell save DC 14). The unicorn can innately cast the following spells, requiring no components: \nAt will: detect evil and good, druidcraft, pass without trace \n1/day each: calm emotions, dispel evil and good, entangle"
+      },
+      {
+        "name": "Magic Resistance.",
+        "desc": "The unicorn has advantage on saving throws against spells and other magical effects."
+      },
+      {
+        "name": "Magic Weapons.",
+        "desc": "The unicorn's weapon attacks are magical."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The unicorn makes two attacks: one with its hooves and one with its horn."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 11,
+            "dice": "2d6 + 4",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 8 (1d8 + 4) piercing damage.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 8,
+            "dice": "1d8 + 4",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Healing Touch (3/Day).",
+        "desc": "The unicorn touches another creature with its horn. The target magically regains 11 (2d8 + 2) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target."
+      },
+      {
+        "name": "Teleport (1/Day).",
+        "desc": "The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away."
+      }
+    ],
+    "legendary_actions": {
+      "desc": "The unicorn can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The unicorn regains spent legendary actions at the start of its turn. ",
+      "actions": [
+        {
+          "name": "Hooves.",
+          "desc": "The unicorn makes one attack with its hooves."
+        },
+        {
+          "name": "Shimmering Shield (Costs 2 Actions).",
+          "desc": "The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn."
+        },
+        {
+          "name": "Heal Self (Costs 3 Actions).",
+          "desc": "The unicorn magically regains 11 (2d8 + 2) hit points."
+        }
+      ]
+    },
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/93/1000/1000/636252739248798123.jpeg"
+  }
+]

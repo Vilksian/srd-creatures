@@ -1,0 +1,3308 @@
+[
+  {
+    "name": "Acolyte",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 10,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 9,
+      "extra": "(2d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 14,
+      "cha": 11
+    },
+    "skills": {
+      "medicine": 4,
+      "religion": 2
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 50
+    },
+    "traits": [
+      {
+        "name": "Spellcasting.",
+        "desc": "The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared: \nCantrips (at will): light, sacred flame, thaumaturgy \n1st level (3 slots): bless, cure wounds, sanctuary"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 2,
+            "dice": "1d4",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Archmage",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": "(15 With Mage Armor)"
+    },
+    "hit_points": {
+      "hp": 99,
+      "extra": "(18d8 + 18)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 20,
+      "wis": 15,
+      "cha": 16
+    },
+    "saving_throws": {
+      "int": 9,
+      "wis": 6
+    },
+    "skills": {
+      "arcana": 13,
+      "history": 13
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Any six languages"
+    ],
+    "challenge": {
+      "rating": 12,
+      "xp": 8
+    },
+    "traits": [
+      {
+        "name": "Magic Resistance.",
+        "desc": "The archmage has advantage on saving throws against spells and other magical effects."
+      },
+      {
+        "name": "Spellcasting.",
+        "desc": "The archmage is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). The archmage can cast disguise self and invisibility at will and has the following wizard spells prepared:\nCantrips (at will): fire bolt, light, mage hand, prestidigitation, shocking grasp\n1st level (4 slots): detect magic, identify, mage armor, magic missile\n2nd level (3 slots): detect thoughts, mirror image, misty step\n3rd level (3 slots): counterspell, fly, lightning bolt\n4th level (3 slots): banishment, fire shield, stoneskin\n5th level (3 slots): cone of cold, scrying, wall of force\n6th level (1 slot): globe of invulnerability\n7th level (1 slot): teleport\n8th level (1 slot): mind blank\n9th level (1 slot): time stop *The archmage casts mind blank, stoneskin and mage armor spells on itself before combat."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 6,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/167/1000/1000/636252760213195530.jpeg"
+  },
+  {
+    "name": "Assassin",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Studded Leather)"
+    },
+    "hit_points": {
+      "hp": 78,
+      "extra": "(12d8 + 24)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 11,
+      "dex": 16,
+      "con": 14,
+      "int": 13,
+      "wis": 11,
+      "cha": 10
+    },
+    "saving_throws": {
+      "dex": 6,
+      "int": 4
+    },
+    "skills": {
+      "acrobatics": 6,
+      "deception": 3,
+      "perception": 3,
+      "stealth": 9
+    },
+    "senses": {
+      "passive_perception": 13
+    },
+    "damage_resistances": [
+      "Poison"
+    ],
+    "languages": [
+      "Thieves' cant plus any two languages"
+    ],
+    "challenge": {
+      "rating": 8,
+      "xp": 3
+    },
+    "traits": [
+      {
+        "name": "Assassinate.",
+        "desc": "During its first turn, the assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+      },
+      {
+        "name": "Evasion.",
+        "desc": "If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails."
+      },
+      {
+        "name": "Sneak Attack.",
+        "desc": "Once per turn, the assassin deals an extra 14 (4d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't incapacitated and the assassin doesn't have disadvantage on the attack roll."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The assassin makes two shortsword attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+        "attack_bonus": 6,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "piercing"
+          },
+          {
+            "average": 24,
+            "dice": "7d6",
+            "type": "poison"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +6 to hit, range 80/320 ft., one target. Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.",
+        "attack_bonus": 6,
+        "reach": 80,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 7,
+            "dice": "1d8 + 3",
+            "type": "piercing"
+          },
+          {
+            "average": 24,
+            "dice": "7d6",
+            "type": "poison"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/910/315/315/636334293020978804.png"
+  },
+  {
+    "name": "Bandit",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 11,
+      "extra": "(2d8 + 2)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 11,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 10
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) slashing damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d6 + 1",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 80 ft./320 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 80,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Bandit Captain",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Studded Leather)"
+    },
+    "hit_points": {
+      "hp": 65,
+      "extra": "(10d8 + 20)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 15,
+      "dex": 16,
+      "con": 14,
+      "int": 14,
+      "wis": 11,
+      "cha": 14
+    },
+    "saving_throws": {
+      "str": 4,
+      "dex": 5,
+      "wis": 2
+    },
+    "skills": {
+      "athletics": 4,
+      "deception": 4
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any two languages"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The captain makes three melee attacks: two with its scimitar and one with its dagger. Or the captain makes two ranged attacks with its daggers."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d4 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d4 + 3",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/181/1000/1000/636252761965117015.jpeg"
+  },
+  {
+    "name": "Berserker",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 13,
+      "extra": "(Hide Armor)"
+    },
+    "hit_points": {
+      "hp": 67,
+      "extra": "(9d8 + 27)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 16,
+      "dex": 12,
+      "con": 17,
+      "int": 9,
+      "wis": 11,
+      "cha": 9
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "traits": [
+      {
+        "name": "Reckless.",
+        "desc": "At the start of its turn, the berserker can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 9,
+            "dice": "1d12 + 3",
+            "type": "slashing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Bugbear",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 16,
+      "extra": "(Hide Armor, Shield)"
+    },
+    "hit_points": {
+      "hp": 27,
+      "extra": "(5d8 + 5)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 15,
+      "dex": 14,
+      "con": 13,
+      "int": 8,
+      "wis": 11,
+      "cha": 9
+    },
+    "skills": {
+      "stealth": 6,
+      "survival": 2
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 10
+    },
+    "languages": [
+      "Common",
+      "Goblin"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 200
+    },
+    "traits": [
+      {
+        "name": "Brute.",
+        "desc": "A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack)."
+      },
+      {
+        "name": "Surprise Attack.",
+        "desc": "If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 11 (2d8 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 11,
+            "dice": "2d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 + 2) piercing damage in melee or 5 (1d6 + 2) piercing damage at range.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 9,
+            "dice": "2d6 + 2",
+            "type": "piercing"
+          },
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/221/1000/1000/636252765234633232.jpeg"
+  },
+  {
+    "name": "Commoner",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 10,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 4,
+      "extra": "(1d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 0,
+      "xp": 10
+    },
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 2,
+            "dice": "1d4",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Cult Fanatic",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 13,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 33,
+      "extra": "(6d8 + 6)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 14
+    },
+    "skills": {
+      "deception": 4,
+      "persuasion": 4,
+      "religion": 2
+    },
+    "senses": {
+      "passive_perception": 11
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "traits": [
+      {
+        "name": "Dark Devotion.",
+        "desc": "The fanatic has advantage on saving throws against being charmed or frightened."
+      },
+      {
+        "name": "Spellcasting.",
+        "desc": "The fanatic is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). The fanatic has the following cleric spells prepared: \nCantrips (at will): light, sacred flame, thaumaturgy \n1st level (4 slots): command, inflict wounds, shield of faith \n2nd level (3 slots): hold person, spiritual weapon"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The fanatic makes two melee attacks."
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/259/1000/1000/636252768307230924.jpeg"
+  },
+  {
+    "name": "Cultist",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 9,
+      "extra": "(2d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 11,
+      "dex": 12,
+      "con": 10,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "skills": {
+      "deception": 2,
+      "religion": 2
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "traits": [
+      {
+        "name": "Dark Devotion.",
+        "desc": "The cultist has advantage on saving throws against being charmed or frightened."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one creature. Hit: 4 (1d6 + 1) slashing damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d6 + 1",
+            "type": "slashing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/14/481/1000/1000/636364323106021375.png"
+  },
+  {
+    "name": "Deep Gnome (Svirfneblin)",
+    "size": "Small",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Chain Shirt)"
+    },
+    "hit_points": {
+      "hp": 16,
+      "extra": "(3d6 + 6)"
+    },
+    "speed": {
+      "base": 20
+    },
+    "stats": {
+      "str": 15,
+      "dex": 14,
+      "con": 14,
+      "int": 12,
+      "wis": 10,
+      "cha": 9
+    },
+    "skills": {
+      "investigation": 3,
+      "perception": 2,
+      "stealth": 4
+    },
+    "senses": {
+      "darkvision": 120,
+      "passive_perception": 12
+    },
+    "languages": [
+      "Gnomish",
+      "Terran",
+      "Undercommon"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Stone Camouflage.",
+        "desc": "The gnome has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+      },
+      {
+        "name": "Gnome Cunning.",
+        "desc": "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The gnome's innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components:\nAt will: nondetection (self only)\n1/day each: blindness/deafness, blur, disguise self"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+        "attack_bonus": 4,
+        "reach": 30,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/9/112/1000/1000/636323610009818415.jpeg"
+  },
+  {
+    "name": "Drow",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Chain Shirt)"
+    },
+    "hit_points": {
+      "hp": 13,
+      "extra": "(3d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 14,
+      "con": 10,
+      "int": 11,
+      "wis": 11,
+      "cha": 12
+    },
+    "skills": {
+      "perception": 2,
+      "stealth": 4
+    },
+    "senses": {
+      "darkvision": 120,
+      "passive_perception": 12
+    },
+    "languages": [
+      "Elvish",
+      "Undercommon"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 50
+    },
+    "traits": [
+      {
+        "name": "Fey Ancestry.",
+        "desc": "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The drow's spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components:\nAt will: dancing lights\n1/day each: darkness, faerie fire"
+      },
+      {
+        "name": "Sunlight Sensitivity.",
+        "desc": "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.",
+        "attack_bonus": 4,
+        "reach": 30,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/16/501/1000/1000/636376310726273495.jpeg"
+  },
+  {
+    "name": "Druid",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 11,
+      "extra": "(16 With Barkskin)"
+    },
+    "hit_points": {
+      "hp": 27,
+      "extra": "(5d8 + 5)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 12,
+      "con": 13,
+      "int": 12,
+      "wis": 15,
+      "cha": 11
+    },
+    "skills": {
+      "medicine": 4,
+      "nature": 3,
+      "perception": 4
+    },
+    "senses": {
+      "passive_perception": 14
+    },
+    "languages": [
+      "Druidic plus any two languages"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "traits": [
+      {
+        "name": "Spellcasting.",
+        "desc": "The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared: \nCantrips (at will): druidcraft, produce flame, shillelagh \n1st level (4 slots): entangle, longstrider, speak with animals, thunderwave \n2nd level (3 slots): animal messenger, barkskin"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage, 4 (1d8) bludgeoning damage if wielded with two hands, or 6 (1d8 + 2) bludgeoning damage with shillelagh.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 3,
+            "dice": "1d6",
+            "type": "bludgeoning"
+          },
+          {
+            "average": 4,
+            "dice": "1d8",
+            "type": "bludgeoning"
+          },
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/299/1000/1000/636252771583275655.jpeg"
+  },
+  {
+    "name": "Duergar",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 16,
+      "extra": "(Scale Mail, Shield)"
+    },
+    "hit_points": {
+      "hp": 26,
+      "extra": "(4d8 + 8)"
+    },
+    "speed": {
+      "base": 25
+    },
+    "stats": {
+      "str": 14,
+      "dex": 11,
+      "con": 14,
+      "int": 11,
+      "wis": 10,
+      "cha": 9
+    },
+    "senses": {
+      "darkvision": 120,
+      "passive_perception": 10
+    },
+    "damage_resistances": [
+      "Poison"
+    ],
+    "languages": [
+      "Dwarvish",
+      "Undercommon"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 200
+    },
+    "traits": [
+      {
+        "name": "Duergar Resilience.",
+        "desc": "The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being charmed or paralyzed."
+      },
+      {
+        "name": "Sunlight Sensitivity.",
+        "desc": "While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Enlarge (Recharges after a Short or Long Rest).",
+        "desc": "For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          },
+          {
+            "average": 11,
+            "dice": "2d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          },
+          {
+            "average": 9,
+            "dice": "2d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Invisibility (Recharges after a Short or Long Rest).",
+        "desc": "The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is invisible with it."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/309/1000/1000/636252772101183765.jpeg"
+  },
+  {
+    "name": "Gladiator",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 16,
+      "extra": "(Studded Leather, Shield)"
+    },
+    "hit_points": {
+      "hp": 112,
+      "extra": "(15d8 + 45)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 18,
+      "dex": 15,
+      "con": 16,
+      "int": 10,
+      "wis": 12,
+      "cha": 15
+    },
+    "saving_throws": {
+      "str": 7,
+      "dex": 5,
+      "con": 6
+    },
+    "skills": {
+      "athletics": 10,
+      "intimidation": 5
+    },
+    "senses": {
+      "passive_perception": 11
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 5,
+      "xp": 1
+    },
+    "traits": [
+      {
+        "name": "Brave.",
+        "desc": "The gladiator has advantage on saving throws against being frightened."
+      },
+      {
+        "name": "Brute.",
+        "desc": "A melee weapon deals one extra die of its damage when the gladiator hits with it (included in the attack)."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The gladiator makes three melee attacks or two ranged attacks."
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +7 to hit, reach 5 ft. and range 20/60 ft., one target. Hit: 11 (2d6 + 4) piercing damage, or 13 (2d8 + 4) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 11,
+            "dice": "2d6 + 4",
+            "type": "piercing"
+          },
+          {
+            "average": 13,
+            "dice": "2d8 + 4",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit: 9 (2d4 + 4) bludgeoning damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 9,
+            "dice": "2d4 + 4",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Gnoll",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Hide Armor, Shield)"
+    },
+    "hit_points": {
+      "hp": 22,
+      "extra": "(5d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 14,
+      "dex": 12,
+      "con": 11,
+      "int": 6,
+      "wis": 10,
+      "cha": 7
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 10
+    },
+    "languages": [
+      "Gnoll"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Rampage.",
+        "desc": "When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          },
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 150,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/345/1000/1000/636252777224997611.jpeg"
+  },
+  {
+    "name": "Goblin",
+    "size": "Small",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Leather Armor, Shield)"
+    },
+    "hit_points": {
+      "hp": 7,
+      "extra": "(2d6)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 8
+    },
+    "skills": {
+      "stealth": 6
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 9
+    },
+    "languages": [
+      "Common",
+      "Goblin"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 50
+    },
+    "traits": [
+      {
+        "name": "Nimble Escape.",
+        "desc": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 80,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/351/315/315/636252777818652432.jpeg"
+  },
+  {
+    "name": "Grimlock",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 11,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 11,
+      "extra": "(2d8 + 2)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 16,
+      "dex": 12,
+      "con": 12,
+      "int": 9,
+      "wis": 8,
+      "cha": 6
+    },
+    "skills": {
+      "athletics": 5,
+      "perception": 3,
+      "stealth": 3
+    },
+    "senses": {
+      "blindsight": 30,
+      "passive_perception": 13
+    },
+    "condition_immunities": [
+      "Blinded"
+    ],
+    "languages": [
+      "Undercommon"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 50
+    },
+    "traits": [
+      {
+        "name": "Blind Senses",
+        "desc": ". The grimlock can't use its blindsight while deafened and unable to smell."
+      },
+      {
+        "name": "Keen Hearing and Smell.",
+        "desc": "The grimlock has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      },
+      {
+        "name": "Stone Camouflage.",
+        "desc": "The grimlock has advantage on Dexterity (Stealth) checks made to hide in rocky terrain."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning damage plus 2 (1d4) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d4 + 3",
+            "type": "bludgeoning"
+          },
+          {
+            "average": 2,
+            "dice": "1d4",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/375/315/315/636252780049813181.jpeg"
+  },
+  {
+    "name": "Guard",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 16,
+      "extra": "(Chain Shirt, Shield)"
+    },
+    "hit_points": {
+      "hp": 11,
+      "extra": "(2d8 + 2)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "skills": {
+      "perception": 2
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "actions": [
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d6 + 1",
+            "type": "piercing"
+          },
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Half-Red Dragon Veteran",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 18,
+      "extra": "(Plate)"
+    },
+    "hit_points": {
+      "hp": 65,
+      "extra": "(10d8 + 20)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "skills": {
+      "athletics": 5,
+      "perception": 2
+    },
+    "senses": {
+      "blindsight": 10,
+      "darkvision": 60,
+      "passive_perception": 12
+    },
+    "damage_resistances": [
+      "Fire"
+    ],
+    "languages": [
+      "Common",
+      "Draconic"
+    ],
+    "challenge": {
+      "rating": 5,
+      "xp": 1
+    },
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 7,
+            "dice": "1d8 + 3",
+            "type": "slashing"
+          },
+          {
+            "average": 8,
+            "dice": "1d10 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 100,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d10 + 1",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Fire Breath (Recharge 5-6).",
+        "desc": "The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.",
+        "saving_throw": {
+          "dc": 15,
+          "stat": "Dexterity"
+        },
+        "damage": [
+          {
+            "average": 24,
+            "dice": "7d6",
+            "type": " fire"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/387/315/315/636252781353903793.jpeg"
+  },
+  {
+    "name": "Hobgoblin",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 18,
+      "extra": "(Chain Mail, Shield)"
+    },
+    "hit_points": {
+      "hp": 11,
+      "extra": "(2d8 + 2)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 10,
+      "cha": 9
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 10
+    },
+    "languages": [
+      "Common",
+      "Goblin"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Martial Advantage.",
+        "desc": "Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "slashing"
+          },
+          {
+            "average": 6,
+            "dice": "1d10 + 1",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 150,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/389/315/315/636252781431932597.jpeg"
+  },
+  {
+    "name": "Knight",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 18,
+      "extra": "(Plate)"
+    },
+    "hit_points": {
+      "hp": 52,
+      "extra": "(8d8 + 16)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 16,
+      "dex": 11,
+      "con": 14,
+      "int": 11,
+      "wis": 11,
+      "cha": 15
+    },
+    "saving_throws": {
+      "con": 4,
+      "wis": 2
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 3,
+      "xp": 700
+    },
+    "traits": [
+      {
+        "name": "Brave.",
+        "desc": "The knight has advantage on saving throws against being frightened."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The knight makes two melee attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 10,
+            "dice": "2d6 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.",
+        "attack_bonus": 2,
+        "reach": 100,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d10",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Leadership (Recharges after a Short or Long Rest).",
+        "desc": "For 1 minute, the knight can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the knight. A creature can benefit from only one Leadership die at a time. This effect ends if the knight is incapacitated."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Kobold",
+    "size": "Small",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 5,
+      "extra": "(2d6 - 2)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 7,
+      "dex": 15,
+      "con": 9,
+      "int": 8,
+      "wis": 7,
+      "cha": 8
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 8
+    },
+    "languages": [
+      "Common",
+      "Draconic"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "traits": [
+      {
+        "name": "Sunlight Sensitivity.",
+        "desc": "While in sunlight, the kobold has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+      },
+      {
+        "name": "Pack Tactics.",
+        "desc": "The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.",
+        "attack_bonus": 4,
+        "reach": 30,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/379/1000/1000/636252780450300625.jpeg"
+  },
+  {
+    "name": "Lizardfolk",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Natural Armor, Shield)"
+    },
+    "hit_points": {
+      "hp": 22,
+      "extra": "(4d8 + 4)"
+    },
+    "speed": {
+      "base": 30,
+      "swim": 30
+    },
+    "stats": {
+      "str": 15,
+      "dex": 10,
+      "con": 13,
+      "int": 7,
+      "wis": 12,
+      "cha": 7
+    },
+    "skills": {
+      "perception": 3,
+      "stealth": 2,
+      "survival": 5
+    },
+    "senses": {
+      "passive_perception": 13
+    },
+    "languages": [
+      "Draconic"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Hold Breath.",
+        "desc": "The lizardfolk can hold its breath for 15 minutes."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The lizardfolk makes two melee attacks, each one with a different weapon."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/233/315/315/636252766314905259.jpeg"
+  },
+  {
+    "name": "Mage",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": "(15 With Mage Armor)"
+    },
+    "hit_points": {
+      "hp": 40,
+      "extra": "(9d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 17,
+      "wis": 12,
+      "cha": 11
+    },
+    "saving_throws": {
+      "int": 6,
+      "wis": 4
+    },
+    "skills": {
+      "arcana": 6,
+      "history": 6
+    },
+    "senses": {
+      "passive_perception": 11
+    },
+    "languages": [
+      "Any four languages"
+    ],
+    "challenge": {
+      "rating": 6,
+      "xp": 2
+    },
+    "traits": [
+      {
+        "name": "Spellcasting.",
+        "desc": "The mage is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The mage has the following wizard spells prepared: \nCantrips (at will): fire bolt, light, mage hand, prestidigitation \n1st level (4 slots): detect magic, mage armor, magic missile, shield \n2nd level (3 slots): misty step, suggestion \n3rd level (3 slots): counterspell, fireball, fly \n4th level (3 slots): greater invisibility, ice storm \n5th level (1 slot): cone of cold"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Merfolk",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 11,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 11,
+      "extra": "(2d8 + 2)"
+    },
+    "speed": {
+      "base": 10,
+      "swim": 40
+    },
+    "stats": {
+      "str": 10,
+      "dex": 13,
+      "con": 12,
+      "int": 11,
+      "wis": 11,
+      "cha": 12
+    },
+    "skills": {
+      "perception": 2
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Aquan",
+      "Common"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "traits": [
+      {
+        "name": "Amphibious.",
+        "desc": "The merfolk can breathe air and water."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +2 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 3,
+            "dice": "1d6",
+            "type": "piercing"
+          },
+          {
+            "average": 4,
+            "dice": "1d8",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/197/1000/1000/636252763841141413.jpeg"
+  },
+  {
+    "name": "Noble",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Breastplate)"
+    },
+    "hit_points": {
+      "hp": 9,
+      "extra": "(2d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 11,
+      "dex": 12,
+      "con": 11,
+      "int": 12,
+      "wis": 14,
+      "cha": 16
+    },
+    "skills": {
+      "deception": 5,
+      "insight": 4,
+      "persuasion": 5
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Any two languages"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/277/1000/1000/636252769861281900.jpeg"
+  },
+  {
+    "name": "Orc",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 13,
+      "extra": "(Hide Armor)"
+    },
+    "hit_points": {
+      "hp": 15,
+      "extra": "(2d8 + 6)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 16,
+      "dex": 12,
+      "con": 16,
+      "int": 7,
+      "wis": 11,
+      "cha": 10
+    },
+    "skills": {
+      "intimidation": 2
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 10
+    },
+    "languages": [
+      "Common",
+      "Orc"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Aggressive",
+        "desc": ". As a bonus action, the orc can move up to its speed toward a hostile creature that it can see."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 9 (1d12 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 9,
+            "dice": "1d12 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/301/1000/1000/636252771691385727.jpeg"
+  },
+  {
+    "name": "Priest",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 13,
+      "extra": "(Chain Shirt)"
+    },
+    "hit_points": {
+      "hp": 27,
+      "extra": "(5d8 + 5)"
+    },
+    "speed": {
+      "base": 25
+    },
+    "stats": {
+      "str": 10,
+      "dex": 10,
+      "con": 12,
+      "int": 13,
+      "wis": 16,
+      "cha": 13
+    },
+    "skills": {
+      "medicine": 7,
+      "persuasion": 3,
+      "religion": 4
+    },
+    "senses": {
+      "passive_perception": 13
+    },
+    "languages": [
+      "Any two languages"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "traits": [
+      {
+        "name": "Divine Eminence.",
+        "desc": "As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+      },
+      {
+        "name": "Spellcasting.",
+        "desc": "The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:\nCantrips (at will): light, sacred flame, thaumaturgy\n1st level (4 slots): cure wounds, guiding bolt, sanctuary\n2nd level (3 slots): lesser restoration, spiritual weapon\n3rd level (2 slots): dispel magic,"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) bludgeoning damage.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 3,
+            "dice": "1d6",
+            "type": "bludgeoning"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Sahuagin",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 22,
+      "extra": "(4d8 + 4)"
+    },
+    "speed": {
+      "base": 30,
+      "swim": 40
+    },
+    "stats": {
+      "str": 13,
+      "dex": 11,
+      "con": 12,
+      "int": 12,
+      "wis": 13,
+      "cha": 9
+    },
+    "skills": {
+      "perception": 5
+    },
+    "senses": {
+      "darkvision": 120,
+      "passive_perception": 15
+    },
+    "languages": [
+      "Sahuagin"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Blood Frenzy.",
+        "desc": "The sahuagin has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+      },
+      {
+        "name": "Limited Amphibiousness.",
+        "desc": "The sahuagin can breathe air and water, but it needs to be submerged at least once every 4 hours to avoid suffocating."
+      },
+      {
+        "name": "Shark Telepathy.",
+        "desc": "The sahuagin can magically command any shark within 120 feet of it, using a limited telepathy."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The sahuagin makes two melee attacks: one with its bite and one with its claws or spear."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 3,
+            "dice": "1d4 + 1",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) slashing damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 3,
+            "dice": "1d4 + 1",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d6 + 1",
+            "type": "piercing"
+          },
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/177/1000/1000/636252761683746719.jpeg"
+  },
+  {
+    "name": "Scout",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 13,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 16,
+      "extra": "(3d8 + 3)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 11,
+      "wis": 13,
+      "cha": 11
+    },
+    "skills": {
+      "nature": 4,
+      "perception": 5,
+      "stealth": 6,
+      "survival": 5
+    },
+    "senses": {
+      "passive_perception": 15
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Keen Hearing and Sight.",
+        "desc": "The scout has advantage on Wisdom (Perception) checks that rely on hearing or sight."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The scout makes two melee attacks or two ranged attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 150,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/163/1000/1000/636252759915100020.jpeg"
+  },
+  {
+    "name": "Spy",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 27,
+      "extra": "(6d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 15,
+      "con": 10,
+      "int": 12,
+      "wis": 14,
+      "cha": 16
+    },
+    "skills": {
+      "deception": 5,
+      "insight": 4,
+      "investigation": 5,
+      "perception": 6,
+      "persuasion": 5,
+      "sleight_of_hand": 4,
+      "stealth": 4
+    },
+    "senses": {
+      "passive_perception": 16
+    },
+    "languages": [
+      "Any two languages"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 200
+    },
+    "traits": [
+      {
+        "name": "Cunning Action.",
+        "desc": "On each of its turns, the spy can use a bonus action to take the Dash, Disengage, or Hide action."
+      },
+      {
+        "name": "Sneak Attack (1/Turn).",
+        "desc": "The spy deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the spy that isn't incapacitated and the spy doesn't have disadvantage on the attack roll."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The spy makes two melee attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 30,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Thug",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 11,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 32,
+      "extra": "(5d8 + 10)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 11
+    },
+    "skills": {
+      "intimidation": 2
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Pack Tactics.",
+        "desc": "The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The thug makes two melee attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6 + 2) bludgeoning damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +2 to hit, range 100/400 ft., one target. Hit: 5 (1d10) piercing damage.",
+        "attack_bonus": 2,
+        "reach": 100,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d10",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/99/1000/1000/636252741335519081.jpeg"
+  },
+  {
+    "name": "Tribal Warrior",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": "(Hide Armor)"
+    },
+    "hit_points": {
+      "hp": 11,
+      "extra": "(2d8 + 2)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 13,
+      "dex": 11,
+      "con": 12,
+      "int": 8,
+      "wis": 11,
+      "cha": 8
+    },
+    "senses": {
+      "passive_perception": 10
+    },
+    "languages": [
+      "Any one language"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 25
+    },
+    "traits": [
+      {
+        "name": "Pack Tactics.",
+        "desc": "The warrior has advantage on an attack roll against a creature if at least one of the warrior's allies is within 5 feet of the creature and the ally isn't incapacitated."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d6 + 1",
+            "type": "piercing"
+          },
+          {
+            "average": 5,
+            "dice": "1d8 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Veteran",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 17,
+      "extra": "(Splint)"
+    },
+    "hit_points": {
+      "hp": 58,
+      "extra": "(9d8 + 18)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "skills": {
+      "athletics": 5,
+      "perception": 2
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Any one language (usually Common)"
+    ],
+    "challenge": {
+      "rating": 3,
+      "xp": 700
+    },
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 7,
+            "dice": "1d8 + 3",
+            "type": "slashing"
+          },
+          {
+            "average": 8,
+            "dice": "1d10 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 100,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d10 + 1",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/attachments/2/656/humanoid.jpg"
+  },
+  {
+    "name": "Werebear",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 10,
+      "extra": "In Humanoid Form, 11 In Bear And Hybrid Form"
+    },
+    "hit_points": {
+      "hp": 135,
+      "extra": "(18d8 + 54)"
+    },
+    "speed": {
+      "base": 40,
+      "climb": 30
+    },
+    "stats": {
+      "str": 19,
+      "dex": 10,
+      "con": 17,
+      "int": 11,
+      "wis": 12,
+      "cha": 12
+    },
+    "skills": {
+      "perception": 7
+    },
+    "senses": {
+      "passive_perception": 17
+    },
+    "damage_immunities": [
+      "Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks that aren't Silvered"
+    ],
+    "languages": [
+      "Common (can't speak in bear form)"
+    ],
+    "challenge": {
+      "rating": 5,
+      "xp": 1
+    },
+    "traits": [
+      {
+        "name": "Shapechanger.",
+        "desc": "The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      },
+      {
+        "name": "Keen Smell.",
+        "desc": "The werebear has advantage on Wisdom (Perception) checks that rely on smell."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack.",
+        "desc": "In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10 + 4) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 15,
+            "dice": "2d10 + 4",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 13,
+            "dice": "2d8 + 4",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 10 (1d12 + 4) slashing damage.",
+        "attack_bonus": 7,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 10,
+            "dice": "1d12 + 4",
+            "type": "slashing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/82/1000/1000/636252736005297867.jpeg"
+  },
+  {
+    "name": "Wereboar",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 10,
+      "extra": "In Humanoid Form, 11 In Boar Or Hybrid Form"
+    },
+    "hit_points": {
+      "hp": 78,
+      "extra": "(12d8 + 24)"
+    },
+    "speed": {
+      "base": 40
+    },
+    "stats": {
+      "str": 17,
+      "dex": 10,
+      "con": 15,
+      "int": 10,
+      "wis": 11,
+      "cha": 8
+    },
+    "skills": {
+      "perception": 2
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "damage_immunities": [
+      "Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks that aren't Silvered"
+    ],
+    "languages": [
+      "Common (can't speak in boar form)"
+    ],
+    "challenge": {
+      "rating": 4,
+      "xp": 1
+    },
+    "traits": [
+      {
+        "name": "Shapechanger.",
+        "desc": "The wereboar can use its action to polymorph into a boar-humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      },
+      {
+        "name": "Charge (Boar or Hybrid Form Only).",
+        "desc": "If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+      },
+      {
+        "name": "Relentless (Recharges after a Short or Long Rest).",
+        "desc": "If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack (Humanoid or Hybrid Form Only).",
+        "desc": "The wereboar makes two attacks, only one of which can be with its tusks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) bludgeoning damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 10,
+            "dice": "2d6 + 3",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 10,
+            "dice": "2d6 + 3",
+            "type": "slashing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/80/315/315/636252735506840152.jpeg"
+  },
+  {
+    "name": "Wererat",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 33,
+      "extra": "(6d8 + 6)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 15,
+      "con": 12,
+      "int": 11,
+      "wis": 10,
+      "cha": 8
+    },
+    "skills": {
+      "perception": 2,
+      "stealth": 4
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 12
+    },
+    "damage_immunities": [
+      "Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks that aren't Silvered"
+    ],
+    "languages": [
+      "Common (can't speak in rat form)"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "traits": [
+      {
+        "name": "Shapechanger.",
+        "desc": "The wererat can use its action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      },
+      {
+        "name": "Keen Smell.",
+        "desc": "The wererat has advantage on Wisdom (Perception) checks that rely on smell."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack (Humanoid or Hybrid Form Only).",
+        "desc": "The wererat makes two attacks, only one of which can be a bite."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d4 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 30,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/78/1000/1000/636252735121410517.jpeg"
+  },
+  {
+    "name": "Weretiger",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 12,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 120,
+      "extra": "(16d8 + 48)"
+    },
+    "speed": {
+      "base": 40
+    },
+    "stats": {
+      "str": 17,
+      "dex": 15,
+      "con": 16,
+      "int": 10,
+      "wis": 13,
+      "cha": 11
+    },
+    "skills": {
+      "perception": 5,
+      "stealth": 4
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 15
+    },
+    "damage_immunities": [
+      "Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks that aren't Silvered"
+    ],
+    "languages": [
+      "Common (can't speak in tiger form)"
+    ],
+    "challenge": {
+      "rating": 4,
+      "xp": 1
+    },
+    "traits": [
+      {
+        "name": "Shapechanger.",
+        "desc": "The weretiger can use its action to polymorph into a tiger-humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      },
+      {
+        "name": "Keen Hearing and Smell.",
+        "desc": "The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      },
+      {
+        "name": "Pounce (Tiger or Hybrid Form Only).",
+        "desc": "If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack (Humanoid or Hybrid Form Only).",
+        "desc": "In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10 + 3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 8,
+            "dice": "1d10 + 3",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 7,
+            "dice": "1d8 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.",
+        "attack_bonus": 4,
+        "reach": 150,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/76/1000/1000/636252734783831163.jpeg"
+  },
+  {
+    "name": "Werewolf",
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 11,
+      "extra": "In Humanoid Form, 12 In Wolf Or Hybrid Form"
+    },
+    "hit_points": {
+      "hp": 58,
+      "extra": "(9d8 + 18)"
+    },
+    "speed": {
+      "base": 40
+    },
+    "stats": {
+      "str": 15,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "skills": {
+      "perception": 4,
+      "stealth": 3
+    },
+    "senses": {
+      "passive_perception": 14
+    },
+    "damage_immunities": [
+      "Bludgeoning",
+      "Piercing",
+      "and Slashing from Nonmagical Attacks that aren't Silvered"
+    ],
+    "languages": [
+      "Common (can't speak in wolf form)"
+    ],
+    "challenge": {
+      "rating": 3,
+      "xp": 700
+    },
+    "traits": [
+      {
+        "name": "Shapechanger.",
+        "desc": "The werewolf can use its action to polymorph into a wolf-humanoid hybrid or into a wolf, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+      },
+      {
+        "name": "Keen Hearing and Smell.",
+        "desc": "The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack. (Humanoid or Hybrid Form Only).",
+        "desc": "The werewolf makes two attacks: one with its bite and one with its claws or spear."
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4 + 2) slashing damage.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 7,
+            "dice": "2d4 + 2",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Melee or Ranged Weapon Attack",
+        "desc": "Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.",
+        "attack_bonus": 4,
+        "reach": 5,
+        "targets": "one creature.",
+        "damage": [
+          {
+            "average": 5,
+            "dice": "1d6 + 2",
+            "type": "piercing"
+          },
+          {
+            "average": 6,
+            "dice": "1d8 + 2",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/74/1000/1000/636252734224239957.jpeg"
+  }
+]

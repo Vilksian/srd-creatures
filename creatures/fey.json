@@ -1,0 +1,493 @@
+[
+  {
+    "name": "Blink Dog",
+    "size": "Medium",
+    "type": "fey",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 13,
+      "extra": ""
+    },
+    "hit_points": {
+      "hp": 22,
+      "extra": "(4d8 + 4)"
+    },
+    "speed": {
+      "base": 40
+    },
+    "stats": {
+      "str": 12,
+      "dex": 17,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 11
+    },
+    "skills": {
+      "perception": 3,
+      "stealth": 5
+    },
+    "senses": {
+      "passive_perception": 13
+    },
+    "languages": [
+      "Blink Dog  Understands Sylvan but can't speak it"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 50
+    },
+    "traits": [
+      {
+        "name": "Keen Hearing and Smell.",
+        "desc": "The dog has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) piercing damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 4,
+            "dice": "1d6 + 1",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Teleport (Recharge 4-6).",
+        "desc": "The dog magically teleports, along with any equipment it is wearing or carrying, up to 40 feet to an unoccupied space it can see. Before or after teleporting, the dog can make one bite attack."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/205/315/315/636252764168652859.jpeg"
+  },
+  {
+    "name": "Dryad",
+    "size": "Medium",
+    "type": "fey",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 11,
+      "extra": "(16 With Barkskin)"
+    },
+    "hit_points": {
+      "hp": 22,
+      "extra": "(5d8)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 10,
+      "dex": 12,
+      "con": 11,
+      "int": 14,
+      "wis": 15,
+      "cha": 18
+    },
+    "skills": {
+      "perception": 4,
+      "stealth": 5
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 14
+    },
+    "languages": [
+      "Elvish",
+      "Sylvan"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 200
+    },
+    "traits": [
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The dryad's innate spellcasting ability is Charisma (spell save DC 14). The dryad can innately cast the following spells, requiring no material components: \nAt will: druidcraft \n3/day each: entangle, goodberry \n1/day each: barkskin, pass without trace, shillelagh"
+      },
+      {
+        "name": "Magic Resistance.",
+        "desc": "The dryad has advantage on saving throws against spells and other magical effects."
+      },
+      {
+        "name": "Speak with Beasts and Plants.",
+        "desc": "The dryad can communicate with beasts and plants as if they shared a language."
+      },
+      {
+        "name": "Tree Stride.",
+        "desc": "Once on her turn, the dryad can use 10 feet of her movement to step magically into one living tree within her reach and emerge from a second living tree within 60 feet of the first tree, appearing in an unoccupied space within 5 feet of the second tree. Both trees must be Large or bigger."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage with shillelagh.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 2,
+            "dice": "1d4",
+            "type": "bludgeoning"
+          },
+          {
+            "average": 8,
+            "dice": "1d8 + 4",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Fey Charm.",
+        "desc": "The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically charmed. The charmed creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can. \nEach time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours. \nThe dryad can have no more than one humanoid and up to three beasts charmed at a time.",
+        "saving_throw": {
+          "dc": 14,
+          "stat": "Wisdom"
+        }
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/307/1000/1000/636252771953950206.jpeg"
+  },
+  {
+    "name": "Green Hag",
+    "size": "Medium",
+    "type": "fey",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 17,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 82,
+      "extra": "(11d8 + 33)"
+    },
+    "speed": {
+      "base": 30
+    },
+    "stats": {
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 13,
+      "wis": 14,
+      "cha": 14
+    },
+    "skills": {
+      "arcana": 3,
+      "deception": 4,
+      "perception": 4,
+      "stealth": 3
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 14
+    },
+    "languages": [
+      "Common",
+      "Draconic",
+      "Sylvan"
+    ],
+    "challenge": {
+      "rating": 3,
+      "xp": 700
+    },
+    "traits": [
+      {
+        "name": "Amphibious.",
+        "desc": "The hag can breathe air and water."
+      },
+      {
+        "name": "Innate Spellcasting.",
+        "desc": "The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components: \nAt will: dancing lights, minor illusion, vicious mockery"
+      },
+      {
+        "name": "Mimicry.",
+        "desc": "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 13 (2d8 + 4) slashing damage.",
+        "attack_bonus": 6,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 13,
+            "dice": "2d8 + 4",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Illusory Appearance.",
+        "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence (Investigation) check to discern that the hag is disguised.",
+        "saving_throw": {
+          "dc": 20,
+          "stat": "Intelligence"
+        }
+      },
+      {
+        "name": "Invisible Passage.",
+        "desc": "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends (as if concentrating on a spell). While invisible, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is invisible with her."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/365/315/315/636252778948574879.jpeg"
+  },
+  {
+    "name": "Satyr",
+    "size": "Medium",
+    "type": "fey",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 14,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 31,
+      "extra": "(7d8)"
+    },
+    "speed": {
+      "base": 40
+    },
+    "stats": {
+      "str": 12,
+      "dex": 16,
+      "con": 11,
+      "int": 12,
+      "wis": 10,
+      "cha": 14
+    },
+    "skills": {
+      "perception": 2,
+      "performance": 6,
+      "stealth": 5
+    },
+    "senses": {
+      "passive_perception": 12
+    },
+    "languages": [
+      "Common",
+      "Elvish",
+      "Sylvan"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 100
+    },
+    "traits": [
+      {
+        "name": "Magic Resistance.",
+        "desc": "The satyr has advantage on saving throws against spells and other magical effects."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 6 (2d4 + 1) bludgeoning damage.",
+        "attack_bonus": 3,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "2d4 + 1",
+            "type": "bludgeoning"
+          }
+        ]
+      },
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "piercing"
+          }
+        ]
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +5 to hit, range 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.",
+        "attack_bonus": 5,
+        "reach": 80,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 6,
+            "dice": "1d6 + 3",
+            "type": "piercing"
+          }
+        ]
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/169/1000/1000/636252760706340605.jpeg"
+  },
+  {
+    "name": "Sea Hag",
+    "size": "Medium",
+    "type": "fey",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 14,
+      "extra": "(Natural Armor)"
+    },
+    "hit_points": {
+      "hp": 52,
+      "extra": "(7d8 + 21)"
+    },
+    "speed": {
+      "base": 30,
+      "swim": 40
+    },
+    "stats": {
+      "str": 16,
+      "dex": 13,
+      "con": 16,
+      "int": 12,
+      "wis": 12,
+      "cha": 13
+    },
+    "senses": {
+      "darkvision": 60,
+      "passive_perception": 11
+    },
+    "languages": [
+      "Aquan",
+      "Common",
+      "Giant"
+    ],
+    "challenge": {
+      "rating": 2,
+      "xp": 450
+    },
+    "traits": [
+      {
+        "name": "Amphibious.",
+        "desc": "The hag can breathe air and water."
+      },
+      {
+        "name": "Horrific Appearance.",
+        "desc": "Any humanoid that starts its turn within 30 feet of the hag and can see the hag's true form must make a DC 11 Wisdom saving throw. On a failed save, the creature is frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, with disadvantage if the hag is within line of sight, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the hag's Horrific Appearance for the next 24 hours. Unless the target is surprised or the revelation of the hag's true form is sudden, the target can avert its eyes and avoid making the initial saving throw. Until the start of its next turn, a creature that averts its eyes has disadvantage on attack rolls against the hag."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 + 3) slashing damage.",
+        "attack_bonus": 5,
+        "reach": 5,
+        "targets": "one target.",
+        "damage": [
+          {
+            "average": 10,
+            "dice": "2d6 + 3",
+            "type": "slashing"
+          }
+        ]
+      },
+      {
+        "name": "Death Glare.",
+        "desc": "The hag targets one frightened creature she can see within 30 feet of her. If the target can see the hag, it must succeed on a DC 11 Wisdom saving throw against this magic or drop to 0 hit points.",
+        "saving_throw": {
+          "dc": 11,
+          "stat": "Wisdom"
+        }
+      },
+      {
+        "name": "Illusory Appearance.",
+        "desc": "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like an ugly creature of her general size and humanoid shape. The effect ends if the hag takes a bonus action to end it or if she dies. The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have no claws, but someone touching her hand might feel the claws. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 16 Intelligence (Investigation) check to discern that the hag is disguised.",
+        "saving_throw": {
+          "dc": 16,
+          "stat": "Intelligence"
+        }
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/159/1000/1000/636252759356069260.jpeg"
+  },
+  {
+    "name": "Sprite",
+    "size": "Tiny",
+    "type": "fey",
+    "alignment": 9,
+    "armor_class": {
+      "ac": 15,
+      "extra": "(Leather Armor)"
+    },
+    "hit_points": {
+      "hp": 2,
+      "extra": "(1d4)"
+    },
+    "speed": {
+      "base": 10,
+      "fly": {
+        "speed": 40,
+        "hover": false
+      }
+    },
+    "stats": {
+      "str": 3,
+      "dex": 18,
+      "con": 10,
+      "int": 14,
+      "wis": 13,
+      "cha": 11
+    },
+    "skills": {
+      "perception": 3,
+      "stealth": 8
+    },
+    "senses": {
+      "passive_perception": 13
+    },
+    "languages": [
+      "Common",
+      "Elvish",
+      "Sylvan"
+    ],
+    "challenge": {
+      "rating": 1,
+      "xp": 50
+    },
+    "actions": [
+      {
+        "name": "Melee Weapon Attack",
+        "desc": "Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 1 slashing damage.",
+        "attack_bonus": 2,
+        "reach": 5,
+        "targets": "one target."
+      },
+      {
+        "name": "Ranged Weapon Attack",
+        "desc": "Ranged Weapon Attack: +6 to hit, range 40/160 ft., one target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.",
+        "attack_bonus": 6,
+        "reach": 40,
+        "targets": "one target."
+      },
+      {
+        "name": "Heart Sight.",
+        "desc": "The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.",
+        "saving_throw": {
+          "dc": 10,
+          "stat": "Charisma"
+        }
+      },
+      {
+        "name": "Invisibility.",
+        "desc": "The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it."
+      }
+    ],
+    "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/115/315/315/636252746444973630.jpeg"
+  }
+]
